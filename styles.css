@@ -1,1 +1,51 @@
+body {
+    background-color:#b68ec7;
+    color:#0d0d3e;
+    max-width: 900px;
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif
+}
 
+header {
+    margin: 35px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    color:#0585f6;
+}
+
+h1 {
+    color:darkslateblue;
+    font-size: 30px;
+}
+
+section h2 {
+    color: #5a035a;
+}
+
+h1, h2, h3 {text-align: center}
+
+img {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+h2 + p {
+    color:navy;
+}
+
+p ~ ul {
+    background-color:#b5aae7;
+    border-radius: 25px;
+}
+
+section > article > h3 {
+    color:darkgreen;
+}
+
+footer {
+    margin: 30px 0;
+}
